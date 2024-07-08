@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../../../../assets/Images/main.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+header h1{
+    font-size: 6rem;
+    font-family: Helvetica;
+    color: white;
+}
+
+.one{
+    margin: 0 2.5%;
+    background-color: hsla(0, 0%, 0%, 0.547);
+    height: 75vh;
+    width: 95vw;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+    box-shadow: 0px 0px 25px 2px #18d26e;
+}
+.one h1{
+    font-size: 5em;
+}
+.one p{
+    font-size: 3rem;
+    color: #18d26e;
+}
+
+
+@media screen and (max-width:992px){
+    header{
+        height: 10vh;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    .one{
+        margin-top: 20px;
+        height: 80vh;
+    }
+    .one h1{
+        font-size: 3em;
+    }
+    .one p {
+        font-size: 2em;
+    }
+}
